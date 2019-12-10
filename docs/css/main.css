@@ -1,0 +1,220 @@
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body h1,
+body h3,
+body h4 {
+  color: #4c545d;
+  margin: 0;
+}
+
+body h1 {
+  font-size: 1.7rem;
+}
+
+body h3 {
+  font-size: 1.4rem;
+}
+
+body p,
+body a {
+  color: #9fabb2;
+  font-size: 0.9rem;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body .button-box {
+  text-align: center;
+  padding: 1.8rem 0;
+}
+
+body .button-box button {
+  border: none;
+  color: #fff;
+  height: 50px;
+  width: 300px;
+  border-radius: 40px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0.4rem 0.3rem;
+}
+
+body .button-box button.ios-button {
+  background-color: #26baa4;
+  border-bottom: 2.5px solid #27aa97;
+  -webkit-box-shadow: 0px 2px 20px rgba(39, 170, 151, 0.5);
+          box-shadow: 0px 2px 20px rgba(39, 170, 151, 0.5);
+}
+
+body .button-box button.mac-button {
+  background-color: #6173ff;
+  border-bottom: 2.5px solid #5766db;
+  -webkit-box-shadow: 0px 2px 20px rgba(87, 102, 219, 0.5);
+          box-shadow: 0px 2px 20px rgba(87, 102, 219, 0.5);
+}
+
+footer {
+  display: none;
+}
+
+section.footer .media {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-items: center;
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white)), url(https://res.cloudinary.com/dpkreativ/image/upload/v1575491163/Clipboard%20Landing%20Page/bg-header-desktop_x7xzfn.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), white), url(https://res.cloudinary.com/dpkreativ/image/upload/v1575491163/Clipboard%20Landing%20Page/bg-header-desktop_x7xzfn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 5rem;
+  }
+  header img {
+    margin-bottom: 1rem;
+  }
+  header .banner .banner-paragraph {
+    max-width: 500px;
+    margin: auto;
+  }
+  section.feature {
+    text-align: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0 6rem;
+    padding: 40px 0;
+  }
+  section.feature img {
+    max-width: 600px;
+  }
+  section.feature .intro-text {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  section.feature .track-snippets {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+  }
+  section.feature .track-snippets .snippet-right {
+    margin: 0 4rem;
+  }
+  section.feature .track-snippets .snippet-right div {
+    margin-top: 3.5rem;
+  }
+  section.feature.supercharge-workflow .columns {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  section.feature.supercharge-workflow .columns .col {
+    padding: 1rem;
+  }
+  section.feature.supercharge-workflow .columns .col img {
+    height: 30px;
+  }
+  section.feature.partners {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+  }
+  .footer {
+    background-color: #f2f2f2;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+  }
+  .footer div {
+    margin: auto;
+  }
+  .footer .logo img {
+    width: 50px;
+    height: auto;
+  }
+  .footer .short-links a {
+    text-decoration: none;
+    color: #4c545d;
+  }
+  .footer .media {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .footer .media .social-media {
+    margin: 0 10px;
+  }
+  .footer .media .social-media img {
+    width: auto;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white)), url(https://res.cloudinary.com/dpkreativ/image/upload/v1575491162/Clipboard%20Landing%20Page/bg-header-mobile_zynglc.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), white), url(https://res.cloudinary.com/dpkreativ/image/upload/v1575491162/Clipboard%20Landing%20Page/bg-header-mobile_zynglc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+  }
+  header img {
+    padding: 80px 0;
+  }
+  section {
+    text-align: center;
+    padding: 40px;
+  }
+  section.feature .track-snippets img, section.feature.access-clipboard img {
+    width: 16rem;
+  }
+  section.feature.supercharge-workflow img {
+    width: 2rem;
+    margin: 20px;
+  }
+  section.feature.partners img {
+    margin: 20px;
+    width: 8rem;
+  }
+  section.footer .media {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-items: center;
+  }
+  section.footer .logo img {
+    width: 50px;
+  }
+  section.footer .media {
+    padding: 40px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  section.footer .media img {
+    height: 25px;
+    color: #f2f2f2;
+  }
+}
