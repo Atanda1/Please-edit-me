@@ -1,5 +1,4 @@
-  var header = document.getElementById("header");
-  var header2 = document.getElementById("header2");
+
   var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1DpRZ4IA6Xd_rd4sNnkpuTkp_-6KOEJJWS-VqZxw4oU0/edit?usp=sharing';
   console.log(publicSpreadsheetUrl);
   function init() {
