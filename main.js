@@ -11,8 +11,6 @@ let body = document.querySelectorAll('body');
    data.forEach(function(data) {
     body.forEach(function(elem) {
       for (i = 0; i < 19; i++) {
-  text += cars[i] + "<br>";
-
          elem.innerHTML = data.body[i];}
 });
  });
