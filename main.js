@@ -31,7 +31,7 @@ data.forEach(function(data) {
     body17.innerHTML = data.body17;
      body18.innerHTML = data.body18;
  });
-});
+};
   window.addEventListener('DOMContentLoaded', init);
 
 
