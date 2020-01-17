@@ -6,7 +6,7 @@
                      callback: showInfo,
                      simpleSheet: true } )
   }
-let c = document.querySelectorAll('c');
+let c = document.querySelectorAll('#c');
   function showInfo(data, tabletop) {
    data.forEach(function(data) {
     c.forEach(function(elem) {
