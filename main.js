@@ -1,6 +1,6 @@
 
   var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1DpRZ4IA6Xd_rd4sNnkpuTkp_-6KOEJJWS-VqZxw4oU0/edit?usp=sharing';
-  console.log(publicSpreadsheetUrl);
+  
   function init() {
     Tabletop.init( { key: publicSpreadsheetUrl,
                      callback: showInfo,
@@ -12,7 +12,7 @@ function showInfo(data, tabletop) {
 data.forEach(function(data) {
     header.innerHTML = data.header;
     header2.innerHTML = data.header2;
-    body.innerHTML = data.body1;
+    body.innerHTML = data.body;
     body2.innerHTML = data.body2;
     body3.innerHTML = data.body3;
     body4.innerHTML = data.body4;
@@ -29,10 +29,10 @@ data.forEach(function(data) {
     body15.innerHTML = data.body15;
     body16.innerHTML = data.body16;
     body17.innerHTML = data.body17;
-     body18.innerHTML = data.body18;
  });
-};
-  window.addEventListener('DOMContentLoaded', init);
+}
+  window.addEventListener('DOMContentLoaded', init)
+
 
 
 
