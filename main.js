@@ -10,7 +10,7 @@ let body = document.querySelectorAll('body');
   function showInfo(data, tabletop) {
    data.forEach(function(data) {
     body.forEach(function(elem) {
-      for (i = 0; i < 19; i++) {
+      for (i = 1; i < 19; i++) {
          elem.innerHTML = data.body[i];}
 });
  });
