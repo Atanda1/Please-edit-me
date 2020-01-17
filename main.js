@@ -9,7 +9,7 @@
 let body = document.querySelectorAll('body');
   function showInfo(data, tabletop) {
    data.forEach(function(data) {
-    body.forEach(elem => {
+    body.forEach(function(elem) {
          elem.innerHTML = data.body[i];
 });
  });
