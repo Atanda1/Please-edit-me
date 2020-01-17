@@ -6,9 +6,7 @@
                      callback: showInfo,
                      simpleSheet: true } )
   }
-let c = document.querySelectorAll('#c');
-  function showInfo(data, tabletop) {
-   
+
  
 function showInfo(data, tabletop) {
 data.forEach(function(data) {
@@ -31,8 +29,9 @@ data.forEach(function(data) {
     body15.innerHTML = data.body15;
     body16.innerHTML = data.body16;
     body17.innerHTML = data.body17;
+     body18.innerHTML = data.body18;
  });
-}
+});
   window.addEventListener('DOMContentLoaded', init);
 
 
