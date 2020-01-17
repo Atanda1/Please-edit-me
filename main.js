@@ -6,14 +6,14 @@
                      callback: showInfo,
                      simpleSheet: true } )
   }
-let body = document.querySelectorAll('body')
+let body = document.querySelectorAll('body');
   function showInfo(data, tabletop) {
    data.forEach(function(data) {
     body.forEach(elem => {
          elem.innerHTML = data.body[i];
-})
+});
  });
-  }
+  };
 
   window.addEventListener('DOMContentLoaded', init)
 
