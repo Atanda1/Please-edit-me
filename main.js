@@ -9,7 +9,10 @@
 let c = document.querySelectorAll('#c');
   function showInfo(data, tabletop) {
    
-  header.innerHTML = data.header;
+ 
+function showInfo(data, tabletop) {
+data.forEach(function(data) {
+    header.innerHTML = data.header;
     header2.innerHTML = data.header2;
     body.innerHTML = data.body;
     body2.innerHTML = data.body2;
@@ -29,9 +32,8 @@ let c = document.querySelectorAll('#c');
     body16.innerHTML = data.body16;
     body17.innerHTML = data.body17;
  });
-  };
-
-  window.addEventListener('DOMContentLoaded', init)
+}
+  window.addEventListener('DOMContentLoaded', init);
 
 
 
